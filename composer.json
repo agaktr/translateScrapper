@@ -1,0 +1,15 @@
+{
+    "name": "apto1/translate-scrapper",
+    "autoload": {
+        "psr-4": {
+            "Apto1\\TranslateScrapper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "agaktr",
+            "email": "apto.gr@gmail.com"
+        }
+    ],
+    "require": {}
+}
