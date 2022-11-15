@@ -19,6 +19,7 @@ const URLS = [
 
 //$scrapper = new Scrapper(URLS);
 
+
 $dictionary = new Dictionary('gr');
 $dictionary->search('Με πυξίδα την πεποίθηση ότι η εταιρεία');
 var_dump($dictionary->getPerformance());
