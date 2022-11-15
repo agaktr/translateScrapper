@@ -123,8 +123,8 @@ class Scrapper
         $start = microtime(true);
 
         //check if dictionary folder exists
-        if (!file_exists('dictionary')) {
-            mkdir('dictionary', 0777, true);
+        if (!file_exists(__DIR__.'/../'.'dictionary/')) {
+            mkdir(__DIR__.'/../'.'dictionary/', 0777, true);
         }
 
         $dictionaries = [];
