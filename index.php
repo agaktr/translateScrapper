@@ -17,7 +17,7 @@ const URLS = [
     ],
 ];
 
-//$scrapper = new Scrapper(URLS);
+$scrapper = new Scrapper(URLS);
 
 
 $dictionary = new Dictionary('gr');

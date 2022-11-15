@@ -136,6 +136,9 @@ class Scrapper
             }
         }
 
+
+        var_dump(dirname(__FILE__));
+
         foreach ($dictionaries as $language => $dictionary) {
             $this->files[$language] = 'dictionary/' . $language . '.json';
             file_put_contents($this->files[$language], json_encode($dictionary));
