@@ -8,7 +8,7 @@
             "Apto1\\TranslateScrapper\\": "src/"
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "agaktr",
