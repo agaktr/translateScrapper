@@ -1,5 +1,8 @@
 {
     "name": "apto1/translate-scrapper",
+    "description": "Create directories and search based on terms on wp pagesd",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Apto1\\TranslateScrapper\\": "src/"
